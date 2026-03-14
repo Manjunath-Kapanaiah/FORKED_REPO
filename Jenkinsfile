@@ -17,7 +17,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Manjunath-Kapanaiah/DEVOPS.git'
+                git branch: 'main', url: 'https://github.com/Manjunath-Kapanaiah/FORKED_REPO.git'
             }
         }
 
